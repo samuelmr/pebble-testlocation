@@ -10,7 +10,6 @@
         "media": [
             {
                 "file": "images/menu_icon.png",
-                "menuIcon": true,
                 "name": "IMAGE_MENU_ICON",
                 "type": "png"
             },
@@ -28,13 +27,19 @@
                 "file": "fonts/UbuntuMono-Regular.ttf",
                 "name": "MONO_FONT_14",
                 "type": "font"
+            },
+            {
+                "file": "images/location.png",
+                "menuIcon": true,
+                "name": "IMAGES_LOCATION_PNG",
+                "type": "png"
             }
         ]
     },
     "shortName": "Test Location",
     "uuid": "1e3c3510-69ff-4018-b427-76a71d962a38",
     "versionCode": 1,
-    "versionLabel": "1.0",
+    "versionLabel": "1.1",
     "watchapp": {
         "watchface": false
     }

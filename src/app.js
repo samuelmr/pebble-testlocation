@@ -61,6 +61,10 @@ function showPosition(position) {
                   'subtitle':  position.coords.altitude + ' m'};
   menuItems[5] = {'title': 'Alt accuracy',
                   'subtitle':  position.coords.altitudeAccuracy + ' m'};
+  if (watcher) {
+    menuItems[6] = {'title': 'Stop watching',
+                    'subtitle': '(select any row)'};    
+  }
   updateView();
 }
 function showError(error) {
